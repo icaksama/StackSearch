@@ -24,6 +24,9 @@ class MainController: UIViewController, MainDelegete, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // restrict the rotation
+        (UIApplication.shared.delegate as! AppDelegate).restrictRotation = .all
+        
         // Setup loading view
         loadingView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
         loadingView.isHidden = true
