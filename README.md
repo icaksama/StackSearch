@@ -1,5 +1,5 @@
 # StackSearch
-Simple iOS mobile to search questions from StackOverflow.
+Simple Android & iOS mobile to search questions from StackOverflow.
 
 ## Development
 - [x] XCode: 9.2
@@ -10,9 +10,9 @@ Simple iOS mobile to search questions from StackOverflow.
 - [x] MVP architectural pattern
 - [x] Full OOP (Object Oriented Programming)
 - [x] Chaching image system to reduce server request
-- [x] JSON parsing with Codable technique (Supported `Any` data type)
+- [x] JSON parsing with Codable(iOS) & GSON(Android) technique (Supported `Any` data type)
 - [x] Access all features in one page for UX
-- [x] Using Userdefaults to save the last search data
+- [x] Using Userdefaults (iOS) & SharedPreferences to save the last search data
 - [x] Responsive layout
 - [x] Infinite scrolls
 
